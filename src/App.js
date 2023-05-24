@@ -5,22 +5,22 @@ import Skills from "./skills";
 
 function App() {
   return (
-    <div class="container">
-      <div class="card">
+    <div>
+      <div>
         <div class="row" style={{ display: "flex" }}>
-          <div class="col s7 offset-1 ">
+          <div class="col s7  ">
             <div style={{ display: "flex" }}>
               <div style={{ borderRadius: "50%" }}>
                 <img
                   src={myImage}
-                  style={{ borderRadius: "50%", width: "9vw" }}
+                  style={{ borderRadius: "50%", width: "15vw" }}
                   alt="my-profile"
                 />
               </div>
-              <div class="col s8 offset-3">
-                <h4>
+              <div class="col s8 truncate ">
+                <h5>
                   <b>Vikram Singh</b>
-                </h4>
+                </h5>
                 <p>MERN Full Stack Developer</p>
               </div>
             </div>
@@ -163,7 +163,7 @@ function App() {
           </div>
           <div class="col s4 " style={{ backgroundColor: "skyblue" }}>
             <div>
-              <h5 style={{ marginLeft: "33%" }}>
+              <h5 style={{ margin: "10%" }}>
                 <b> Details</b>{" "}
               </h5>
             </div>
@@ -176,6 +176,7 @@ function App() {
                   width: "100%",
                   overflowWrap: "break-word",
                 }}
+                className="truncate"
               >
                 <b>
                   Village- Bagla <br></br>Tehsil- Mandi Adampur <br></br>

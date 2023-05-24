@@ -18,7 +18,7 @@ function App() {
                 />
               </div>
               <div class="col s8 truncate ">
-                <h5>
+                <h5 style={{ marginTop: "15%" }}>
                   <b>Vikram Singh</b>
                 </h5>
                 <p>MERN Full Stack Developer</p>

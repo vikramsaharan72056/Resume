@@ -1,0 +1,20 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  .ProgressBar {
+    background-color: blue;
+    border-radius: 4px;
+    height: 15px;
+    overflow: hidden;
+  }
+  
+  .ProgressBar-bar {
+    background-color: red;
+  }
+  

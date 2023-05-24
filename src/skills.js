@@ -25,7 +25,7 @@ const Skills = () => {
             <b>{skill.name}</b>
           </h6>
           <LinearProgress
-            style={{ height: "10px" }}
+            style={{ height: "6px" }}
             variant="buffer"
             value={skill.efficiency}
             valueBuffer="100"

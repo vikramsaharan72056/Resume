@@ -173,8 +173,8 @@ function App() {
               </h6>
               <p
                 style={{
-                  flexWrap: "wrap",
-                  justifyContent: "flex-start",
+                  width: "100%",
+                  overflowWrap: "break-word",
                 }}
               >
                 <b>

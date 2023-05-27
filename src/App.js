@@ -46,7 +46,7 @@ function App() {
                     <h6>
                       <b>Bachelor of Arts(Psychology and Mathematics)</b>
                     </h6>
-                    <p style={{ color: "green" }}>July 2018 to August 2020</p>
+                    <p style={{ color: "green" }}>July 2016 to August 2020</p>
                   </li>
                   <li>
                     <h6>

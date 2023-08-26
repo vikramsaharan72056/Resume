@@ -74,7 +74,7 @@ function App() {
                   <h6>
                     <b>MERN Full Stack Development, 10x Academy, Hyderabad</b>
                   </h6>
-                  <p style={{ color: "green" }}>August 2022 to May 2022</p>
+                  <p style={{ color: "green" }}>August 2022 to June 2023</p>
                   <p>
                     Good Hands on experience of Application Creation,
                     Application Design and Deployment of Web Application

@@ -36,6 +36,21 @@ function App() {
                 with USER-Interface, FrontEnd, BackEnd and Databases.
               </p>
             </div>
+                  <div>
+              <h5>
+                <b>Work Experience :-</b>
+              </h5>
+              <div>
+                <ul>
+                  <li>
+                    <h6>
+                      <b>Deep Thought </b>
+                    </h6>
+                    <p style={{ color: "green" }}>July 2023 to Present (Working)</p>
+                  </li>
+                  </ul>
+              </div>
+            </div>
             <div>
               <h5>
                 <b>Educational Qualifications:-</b>

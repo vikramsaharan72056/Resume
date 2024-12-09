@@ -7,227 +7,187 @@ function App() {
   return (
     <div>
       <div>
-        <div class="row" style={{ display: "flex" }}>
-          <div class="col s7  ">
+        <div className="row" style={{ display: "flex" }}>
+          <div className="col s7">
             <div style={{ display: "flex" }}>
               <div style={{ borderRadius: "50%" }}>
                 <img
                   src={myImage}
                   style={{ borderRadius: "50%", width: "15vw" }}
-                  alt="my-profile"
+                  alt="Vikram Singh"
                 />
               </div>
-              <div class="col s8 truncate ">
+              <div className="col s8 truncate">
                 <h5 style={{ marginTop: "15%" }}>
                   <b>Vikram Singh</b>
                 </h5>
-                <p>MERN Full Stack Developer</p>
+                <p>Full Stack Developer | Shopify, MERN-MEAN, PHP</p>
               </div>
             </div>
+
             <div>
               <h5>
                 <b>Profile:</b>
               </h5>
               <p>
-                Skillful Software Developer adept in logic building and
-                expertise in problem solving in both FrontEnd and BackEnd.
-                Speciality in JavaScript language and cutting Edge user
-                Interface developing skills with Enough experience of working
-                with USER-Interface, FrontEnd, BackEnd and Databases.
+                Detail-oriented Full Stack Developer with expertise in Shopify app development and MERN-MEAN stack
+                technologies. Skilled in building custom solutions for eCommerce platforms, optimizing web performance,
+                and integrating third-party APIs.
               </p>
             </div>
-                  <div>
-              <h5>
-                <b>Work Experience :-</b>
-              </h5>
-              <div>
-                <ul>
-                  <li>
-                    <h6>
-                      <b>Deep Thought </b>
-                    </h6>
-                    <p style={{ color: "green" }}>July 2023 to Present (Working)</p>
-                  </li>
-                  </ul>
-              </div>
-            </div>
+
             <div>
               <h5>
-                <b>Educational Qualifications:-</b>
+                <b>Work Experience:</b>
               </h5>
               <div>
                 <ul>
                   <li>
                     <h6>
-                      <b>Bachelor of Arts(Psychology and Mathematics)</b>
+                      <b>Junior Software Developer | ASV INFOMEDIA</b>
                     </h6>
-                    <p style={{ color: "green" }}>July 2016 to August 2020</p>
+                    <p style={{ color: "green" }}>Nov 2023 to Nov 2024 (Current)</p>
+                    <ul>
+                      <li>
+                        Developed custom Shopify apps, including Lim's Kitchen and Kaghati, enhancing user experience and
+                        automating inventory management.
+                      </li>
+                      <li>
+                        Integrated third-party APIs for seamless communication between Shopify apps and external services
+                        like WhatsApp and email.
+                      </li>
+                    </ul>
                   </li>
+
                   <li>
                     <h6>
-                      <b>Master of Arts( Counselling Psychology)</b>
+                      <b>Freelance Web Developer | Brand Boom Digital Solutions</b>
                     </h6>
-                    <p style={{ color: "green" }}>July 2021 to August 2023</p>
+                    <p style={{ color: "green" }}>Dec 2023 to Present</p>
+                    <ul>
+                      <li>
+                        Delivered a Doctors Appointment Booking System with an intuitive admin dashboard for schedule
+                        management.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <h6>
+                      <b>Internship | Deep Thought Growth Management System</b>
+                    </h6>
+                    <p style={{ color: "green" }}>May 2023 to Nov 2023</p>
+                    <ul>
+                      <li>Mentored 150+ students in web development and problem-solving techniques.</li>
+                      <li>Led multiple development projects, ensuring timely completion.</li>
+                    </ul>
                   </li>
                 </ul>
               </div>
             </div>
+
             <div>
               <h5>
-                <b>Courses:-</b>
+                <b>Education:</b>
               </h5>
               <ul>
                 <li>
                   <h6>
-                    <b>
-                      Diploma in Computer Software, Hartron Workstation, Hisar
-                    </b>
+                    <b>Master of Arts (Psychology)</b>
                   </h6>
-                  <p style={{ color: "green" }}>March 2021 to March 2022</p>
+                  <p style={{ color: "green" }}>Indira Gandhi National Open University, 81%</p>
+                  <p>June 2021 - August 2023</p>
                 </li>
                 <li>
                   <h6>
-                    <b>MERN Full Stack Development, 10x Academy, Hyderabad</b>
+                    <b>MERN Full Stack Development</b>
                   </h6>
-                  <p style={{ color: "green" }}>August 2022 to June 2023</p>
-                  <p>
-                    Good Hands on experience of Application Creation,
-                    Application Design and Deployment of Web Application
-                  </p>
+                  <p style={{ color: "green" }}>10X Academy</p>
+                  <p>April 2022 - February 2023</p>
                 </li>
               </ul>
             </div>
+
             <div>
               <h5>
-                <b>Projects:-</b>
+                <b>Projects:</b>
               </h5>
               <ol>
                 <li>
                   <h6>
                     <b>
-                      <a href="https://rishi-fz2e.onrender.com">
-                        Rishi-fz2e.onrender.com
-                      </a>
+                      <a href="https://thepetproject.com/">The Pet Project</a>
                     </b>
                   </h6>
-                  <p>
-                    {" "}
-                    This is a clone project of very famous social media platform
-                    Instagram. This project is totally built using the most
-                    trending FrontEnd and BackEnd frameworks like React,
-                    Express.js, and Node.js
-                  </p>
+                  <p>Custom Shopify app for inventory management and eCommerce integration.</p>
                 </li>
                 <li>
                   <h6>
                     <b>
-                      <a href="https://snapshot-uxjo.onrender.com">
-                        Snapshot-uxjs.onrender.com
-                      </a>
+                      <a href="https://ramrajcotton.in/">RamRaj Cotton</a>
                     </b>
                   </h6>
-                  <p> This is a react based Photo search Application</p>
+                  <p>Shopify custom solutions for enhanced user experience and seamless third-party integrations.</p>
                 </li>
                 <li>
                   <h6>
                     <b>
-                      <a href="https://vikramscart.onrender.com">
-                        Vikramscart.onrender.com
-                      </a>
+                      <a href="https://apps.shopify.com/kaghati-companion">Kaghati Companion</a>
                     </b>
                   </h6>
-                  <p>
-                    {" "}
-                    This is a model for Ecommerce Website built using the
-                    Trending web frameworks as React.js, ApolloServer,
-                    ApolloClient, GraphQL, Strapi CMS and Stripe payment
-                    management.
-                  </p>
+                  <p>Public Shopify app for real-time inventory updates and order management.</p>
                 </li>
                 <li>
                   <h6>
                     <b>
-                      <a href="https://tictac-xnih.onrender.com">
-                        Tictac-xnih.onrender.com
-                      </a>
+                      <a href="https://dental-frontend.onrender.com/">Dental Appointment System</a>
                     </b>
                   </h6>
-                  <p>
-                    {" "}
-                    This is a Game Web Application based on HTML, CSS, and
-                    Vanila JavaScript with EcmaScript
-                  </p>
-                </li>
-                <li>
-                  <h6>
-                    <b>
-                      <a href="https://one0x-survey.onrender.com">
-                        10x-survey.onrender.com
-                      </a>
-                    </b>
-                  </h6>
-                  <p>
-                    {" "}
-                    This is a Web Application to make surveys regarding variour
-                    topics. This is completely based on React, Node.js and
-                    Express.js
-                  </p>
+                  <p>React-based Doctors Appointment Booking System with a user-friendly admin dashboard.</p>
                 </li>
               </ol>
             </div>
           </div>
-          <div class="col s4 " style={{ backgroundColor: "skyblue" }}>
+
+          <div className="col s4" style={{ backgroundColor: "skyblue" }}>
             <div>
               <h5 style={{ margin: "10%" }}>
-                <b> Details</b>{" "}
+                <b>Details</b>
               </h5>
             </div>
             <div>
               <h6>
-                <b>Address:-</b>
+                <b>Address:</b>
               </h6>
-              <p
-                style={{
-                  width: "100%",
-                  overflowWrap: "break-word",
-                }}
-                className="truncate"
-              >
+              <p style={{ width: "100%", overflowWrap: "break-word" }} className="truncate">
                 <b>
-                  Village- Bagla <br></br>Tehsil- Mandi Adampur <br></br>
-                  District - Hisar<br></br>
-                  State - Haryana<br></br> INDIA <br></br> Pin - 125052
-                  <br></br> Email - vikramsaharan72056@gmail.com<br></br>
+                  Village- Bagla <br />
+                  Tehsil- Mandi Adampur <br />
+                  District - Hisar <br />
+                  State - Haryana <br />
+                  INDIA <br />
+                  Pin - 125052 <br />
+                  Email - vikramsaharan72056@gmail.com <br />
                   Mobile No.- 7988321044
                 </b>
               </p>
             </div>
             <div>
               <h6>
-                <b>Links:-</b>
+                <b>Links:</b>
               </h6>
               <ol>
                 <li>
-                  <a
-                    href="https://www.linkedin.com/in/vikram-singh-598106135"
-                    alt="my-profile"
-                  >
-                    LinkedIn Proflie
-                  </a>
+                  <a href="https://www.linkedin.com/in/vikram-singh-598106135">LinkedIn Profile</a>
                 </li>
                 <li>
-                  <a
-                    href="https://github.com/vikramsaharan72056"
-                    alt="my-github"
-                  >
-                    Github
-                  </a>
+                  <a href="https://github.com/vikramsaharan72056">GitHub</a>
                 </li>
               </ol>
             </div>
             <div>
               <h6>
-                <b>My Skills:-</b>
+                <b>My Skills:</b>
               </h6>
               <Skills />
             </div>
